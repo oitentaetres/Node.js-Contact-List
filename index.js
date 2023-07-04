@@ -3,7 +3,7 @@ var app = express();
 
 // Retrieving the data from the JSON file:
 
-var data = require("./data/mockContacts2.json");
+var data = require("./data/mockContacts.json");
 
 // Putting the data in alphabetical order:
 

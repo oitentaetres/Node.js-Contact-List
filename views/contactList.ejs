@@ -1,5 +1,7 @@
 <div class = "ui items">
 
+	<!-- Display of the results, if appliable -->
+	
 	<% if (contactList.length > 0){ %>
 		<% contactList.forEach(function(contact){ %>
 			<div class = "item listItems">
@@ -14,11 +16,16 @@
 			</div>
 		<% }) %>
 	<% } else { %>
+		
+		<!-- Message in case of no results for the filter -->
 		<% if (Boolean(name) === true) { %>
-			<p class = "alert">There are no results for your filtering!</p>
+			<p class = "alert">There are no results for your filter!</p>
+		
+		<!-- Message in case of an empty contacts file -->
 		<% } else { %>
 			<p class = "alert">The contacts catalog is empty!</p>
 		<% } %>  
+	
 	<% } %> 
 	
 </div>

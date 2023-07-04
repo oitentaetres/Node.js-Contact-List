@@ -1,21 +1,31 @@
 var express = require("express");
 var app = express();
 
-// Retrieving the data from the JSON file:
+// Defining the listening port:
 
-var data = require("./data/mockContacts.json");
+const port = 3001;
 
-// Putting the data in alphabetical order:
+// App settings:
+
+app.set("view engine", "ejs");
+app.use(express.static(__dirname + "/scripts"));
+
+// Retrieving the data from the JSON file
+// Choose below between the populated and the empty JSON file (default = populated):
+
+var data = require("./data/mockContacts - Populated.json");
+//var data = require("./data/mockContacts - Empty.json");
+
+// Sorting the data in alphabetical order:
 
 data = [...data].sort((a, b) => a.name.localeCompare(b.name));
+
+// Variables to be used on the rendering process, initillay empty:
 
 var newData = null;
 var name = null;
 
-const port = 3001;
-
-app.set("view engine", "ejs");
-app.use(express.static(__dirname + "/scripts"));
+// Defining the route and response to a client request:
 
 app.get("/", function(req, res) {
 	
@@ -32,6 +42,8 @@ app.get("/", function(req, res) {
 	res.render("./index", { contactList: newData, name: name });
 
 });
+
+// Console logging:
 
 app.listen(port, () => {
 	

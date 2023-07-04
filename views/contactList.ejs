@@ -1,0 +1,23 @@
+<div class = "ui items">
+	<% if (contactList.length > 0){ %>
+		<% contactList.forEach(function(contact){ %>
+			<div class = "item listItems">
+				<div class = "content">
+					<div class = "header"><%= contact.name %></div>
+					<div class = "meta">
+						<span class = "stay"><%= contact.email %></span><br />
+						<span class = "stay"><%= contact.telephone %></span><br />
+						<span class = "stay"><%= contact.address %></span><br />
+					</div>
+				</div>
+			</div>
+		<% }) %>
+	<% } else { %>
+		<% if (name !== "undefined") { %>
+			<p class = "alert">There are no results for your filtering!</p>	
+		<% } else { %>
+			<p class = "alert">The contacts catalog is empty!</p>
+		<% } %>  
+	<% } %> 
+</div>
+ 

@@ -1,0 +1,40 @@
+.maintContainer {
+	padding-top: 5%;
+}
+
+.listItems {
+	width: 200px;
+	padding-bottom: 6px;
+	border-bottom-width: 1px !important;
+	border-bottom-style: ridge !important;
+}
+
+.ui.items>.item .meta {
+	line-height: 1.4em !important;
+}
+
+.ui.items {
+	width: 24rem;
+	margin-bottom: 30px !important;
+}
+
+.ui.search {
+	text-align: center;
+}
+
+.headTitle {
+	padding-bottom: 2rem;
+	text-align: center;
+}
+
+.ui.items:last-child {
+	margin-bottom: 30px !important;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.alert {
+	margin-bottom: 20px; 
+	margin-top: 20px;
+	text-align: center;
+}

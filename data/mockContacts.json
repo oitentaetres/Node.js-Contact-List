@@ -1,0 +1,62 @@
+[
+  {
+    "name": "John Doe",
+    "address": "123 Main St, Anytown, USA",
+    "telephone": "123-456-7890",
+    "email": "john.doe@example.com"
+  },
+  {
+    "name": "Jane Smith",
+    "address": "456 Elm St, Otherville, USA",
+    "telephone": "987-654-3210",
+    "email": "jane.smith@example.com"
+  },
+  {
+    "name": "Michael Johnson",
+    "address": "789 Oak St, Springfield, USA",
+    "telephone": "555-123-4567",
+    "email": "michael.johnson@example.com"
+  },
+  {
+    "name": "Emily Davis",
+    "address": "321 Pine St, Rivertown, USA",
+    "telephone": "444-789-1234",
+    "email": "emily.davis@example.com"
+  },
+  {
+    "name": "Daniel Wilson",
+    "address": "567 Maple St, Mountainview, USA",
+    "telephone": "222-555-8888",
+    "email": "daniel.wilson@example.com"
+  },
+  {
+    "name": "Sophia Thompson",
+    "address": "901 Cedar St, Lakeside, USA",
+    "telephone": "777-111-9999",
+    "email": "sophia.thompson@example.com"
+  },
+  {
+    "name": "James Rodriguez",
+    "address": "654 Birch St, Forestville, USA",
+    "telephone": "999-444-7777",
+    "email": "james.rodriguez@example.com"
+  },
+  {
+    "name": "Olivia Lee",
+    "address": "890 Walnut St, Parkville, USA",
+    "telephone": "666-222-5555",
+    "email": "olivia.lee@example.com"
+  },
+  {
+    "name": "William Martinez",
+    "address": "234 Spruce St, Hillside, USA",
+    "telephone": "333-666-9999",
+    "email": "william.martinez@example.com"
+  },
+  {
+    "name": "Ava Anderson",
+    "address": "432 Cedar St, Seaside, USA",
+    "telephone": "888-333-6666",
+    "email": "ava.anderson@example.com"
+  }
+]

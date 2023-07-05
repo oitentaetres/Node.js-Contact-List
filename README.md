@@ -11,4 +11,4 @@
 ## Setup and run steps:
 
 - Use "npm install" to install all the required Node modules;
-- Use "node index.js" or "npm start" to run the app, which will be listening on the defined port (3001).
+- Use "node index.js" or "npm start" to run the app, which will be listening on the defined port (default: 3001).

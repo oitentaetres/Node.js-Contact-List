@@ -10,5 +10,5 @@
 
 ## Setup and run steps:
 
-- Use "npm i -s express" and "npm i -s ejs" to install the required Node modules, if needed;
+- Use "npm install" to install all the required Node modules;
 - Use "node index.js" or "npm start" to run the app, which will be listening on the defined port (3001).

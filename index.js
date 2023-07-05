@@ -11,7 +11,7 @@ app.set("view engine", "ejs");
 app.use(express.static(__dirname + "/scripts"));
 
 // Retrieving the data from the JSON file
-// Choose below between the populated and the empty JSON file (default = populated):
+// Choose below between the populated and the empty JSON file (default: populated):
 
 var data = require("./data/mockContacts - Populated.json");
 //var data = require("./data/mockContacts - Empty.json");
